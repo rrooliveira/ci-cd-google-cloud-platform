@@ -8,6 +8,6 @@
     * Container redis => Servidor Redis
     * Container db => Banco de Dados MySQL
     
-* Na pasta k8s, estáo todos os arquivos para serem utilizados no Kubernetes 
+* Na pasta k8s, estão todos os arquivos para serem utilizados no Kubernetes 
 
 * Comando para criar a senha secreta no GCP `kubectl create secret generic mysql-pass --from-literal=password='senha_bd'`
